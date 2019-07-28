@@ -1,45 +1,19 @@
 {
-  "_from": "noykou",
-  "_id": "noykou@1.0.3",
-  "_inBundle": false,
-  "_integrity": "sha512-aPDBvE0KpJ15EzgzBbv2wXgUoMRWCi+l13M6j5GMdmOzmS//sz1wPR4uJ9KAnzvyWdWL61yc4t/lLtULVxnekA==",
-  "_location": "/noykou",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "noykou",
-    "name": "noykou",
-    "escapedName": "noykou",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/noykou/-/noykou-1.0.3.tgz",
-  "_shasum": "f49feb7bc90ff19a952858181ade723843e17fea",
-  "_spec": "noykou",
-  "_where": "D:\\Users\\utilisateur\\Desktop\\noykou",
-  "author": {
-    "name": "skylinebot"
-  },
-  "bundleDependencies": false,
-  "dependencies": {
-    "superagent": "^5.0.6"
-  },
-  "deprecated": false,
-  "description": "Module de la superbe api NoyKou",
-  "keywords": [
-    "API"
-  ],
-  "license": "ISC",
-  "main": "index.js",
   "name": "noykou",
+  "version": "1.0.4",
+  "description": "Module de la superbe api NoyKou",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js"
   },
-  "version": "1.0.3"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noykou/noykou-module.git"
+  },
+  "author": "skylinebot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noykou/noykou-module/issues"
+  },
+  "homepage": "https://github.com/noykou/noykou-module#readme"
 }
