@@ -1,4 +1,4 @@
-const { get } = require("superagent"),
+const fetch = require("node-fetch"),
 baseURL = "https://noykou.glitch.me/api/v1";
 
 module.exports = {
@@ -11,8 +11,8 @@ module.exports = {
      */
     async getImage(endpoint, options){
         return new Promise(async(resolve, reject) => {
-            const { body } = await get(encodeURI(`${baseURL}/${endpoint}?username=${(options.username ? options.username.toLowerCase() : null)}&url=${options.url}&action=${options.action}&text=${options.text}&message=${options.message}&back=${options.back}&style=${options.style}&roundcolor=${options.roundcolor}&textcolor=${options.textcolor}`));
-            resolve(body);
+            const res = await fetch(encodeURI(`${baseURL}/${endpoint}?username=${(options.username ? options.username.toLowerCase() : null)}&url=${options.url}&action=${options.action}&text=${options.text}&message=${options.message}&back=${options.back}&style=${options.style}&roundcolor=${options.roundcolor}&textcolor=${options.textcolor}`));
+            resolve(await res.buffer());
         });
     }
 
