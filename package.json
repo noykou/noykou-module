@@ -1,8 +1,8 @@
 {
   "_from": "noykou",
-  "_id": "noykou@1.0.1",
+  "_id": "noykou@1.0.3",
   "_inBundle": false,
-  "_integrity": "sha512-KoV4OyFdmdyboi8+OjvRRivv1mo4XUUYrr2uOBc3ch1kv3YnwStT7HJ8UgxJs7Fx36rtQRlpO7DbSvi5TDrEhg==",
+  "_integrity": "sha512-aPDBvE0KpJ15EzgzBbv2wXgUoMRWCi+l13M6j5GMdmOzmS//sz1wPR4uJ9KAnzvyWdWL61yc4t/lLtULVxnekA==",
   "_location": "/noykou",
   "_phantomChildren": {},
   "_requested": {
@@ -19,10 +19,10 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/noykou/-/noykou-1.0.1.tgz",
-  "_shasum": "4f8ba02779f1d76ce0ae07f73d62255a31db930b",
+  "_resolved": "https://registry.npmjs.org/noykou/-/noykou-1.0.3.tgz",
+  "_shasum": "f49feb7bc90ff19a952858181ade723843e17fea",
   "_spec": "noykou",
-  "_where": "D:\\Users\\utilisateur\\Desktop\\Developpement\\HolyCloud\\node_modules",
+  "_where": "D:\\Users\\utilisateur\\Desktop\\noykou",
   "author": {
     "name": "skylinebot"
   },
@@ -41,5 +41,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.1"
+  "version": "1.0.3"
 }
